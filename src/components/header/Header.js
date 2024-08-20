@@ -9,9 +9,11 @@ function Header() {
   return (
     <Navbar bg="dark" variant="dark" expand="lg">
       <Container fluid>
-        <Navbar.Brand href="/movie-client" style={{ color: "gold" }}>
-          <FontAwesomeIcon icon={faFilm} />
-          Gold
+        <Navbar.Brand style={{ color: "gold" }}>
+          <NavLink className="nav-link" to="/movie-client">
+            <FontAwesomeIcon icon={faFilm} />
+            Gold
+          </NavLink>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
