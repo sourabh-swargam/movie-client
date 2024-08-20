@@ -1,5 +1,6 @@
 {
-  "name": "https://sourabh-swargam.github.io/movie-client",
+  "name": "movie-client",
+  "homepage": "https://sourabh-swargam.github.io/movie-client",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -27,11 +28,7 @@
     "predeploy": "npm run build",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "gh-pages -d build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "format": "prettier --write \"./**/*.{js,css,json,scss}\"",
-    "check-format": "prettier -c \"./**/*.{js,css,json,scss}\""
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
