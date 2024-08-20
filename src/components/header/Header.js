@@ -9,7 +9,7 @@ function Header() {
   return (
     <Navbar bg="dark" variant="dark" expand="lg">
       <Container fluid>
-        <Navbar.Brand href="/" style={{ color: "gold" }}>
+        <Navbar.Brand href="/movie-client" style={{ color: "gold" }}>
           <FontAwesomeIcon icon={faFilm} />
           Gold
         </Navbar.Brand>
