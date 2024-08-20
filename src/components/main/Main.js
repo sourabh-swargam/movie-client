@@ -41,11 +41,17 @@ function Main({ login, logout }) {
     <div className="App">
       <Header login={login} logout={logout} />
       <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route path="/" element={<Home movies={movies} />}></Route>
-          <Route path="/Trailer/:ytTrailerId" element={<Trailer />}></Route>
+        <Route path="/movie-client" element={<Layout />}>
           <Route
-            path="/Reviews/:movieId"
+            path="/movie-client"
+            element={<Home movies={movies} />}
+          ></Route>
+          <Route
+            path="/movie-client/Trailer/:ytTrailerId"
+            element={<Trailer />}
+          ></Route>
+          <Route
+            path="movie-client/Reviews/:movieId"
             element={
               <Reviews
                 getMovieData={getMovieData}

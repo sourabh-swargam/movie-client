@@ -20,7 +20,7 @@ function Header() {
             style={{ maxHeight: "100px" }}
             navbarScroll
           >
-            <NavLink className="nav-link" to="/">
+            <NavLink className="nav-link" to="/movie-client">
               Home
             </NavLink>
             {/* <NavLink className="nav-link" to="/watchList">
